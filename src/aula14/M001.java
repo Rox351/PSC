@@ -14,6 +14,10 @@ public class M001 {
 	public static void main(String[] args) {
 		Menu menu = new Menu();
 		
+		addItensDoMenu(menu);
+	}
+
+	private static void addItensDoMenu(Menu menu) {
 		// Inclusão pratos no Menu
 		menu.addItemMenu(new Prato("Vegetariano",180));
 		menu.addItemMenu(new Prato("Peixe",230));
