@@ -4,7 +4,6 @@ public class Sobremesa extends Caloria {
 
 	public Sobremesa(String descricao, int qtdeCalorias) {
 		super(descricao, qtdeCalorias);
-		// TODO Auto-generated constructor stub
 	}
 
 }
