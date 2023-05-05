@@ -58,8 +58,9 @@ public class Aluno implements Serializable {
 		
 	}
 	
-	public void pesquisar(Integer id) throws FileNotFoundExceptio
+	public void pesquisar(Integer id) throws IOException {
 		ObjectOutputStream arquivo = new ObjectOutputStream(new FileOutputStream(NOMEARQUIVO));
+	}
 
 	public void pesquisar() {
 
